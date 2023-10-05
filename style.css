@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: linear-gradient(90deg, rgba(0,11,24,1) 0%, rgba(0,23,45,1) 58%, rgba(0,38,77,1) 100%);
+}
+
+body {
+    background: var(--background-color);
+}
+
+.card {
+    max-width: 560px;
+    width: 90%;
+    background: linear-gradient(135deg, #2E3192, #1BFFFF);
+    color: #fff;
+    margin: 48px auto;
+    border-radius: 52px;
+    padding: 48px 44px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 15px 30px;
+    height: 72px;
+    border-radius: 60px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 25px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 75px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 20px;
+}
+
+.weather--icon{
+    width: 260px;
+    margin-top: 36px;
+}
+
+.weather h1 {
+    padding-top: 1rem;
+}
+
+.weather h3 {
+    padding-top: 1rem;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    margin-top: 64px;
+}
+
+.col--1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col--1 img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+/* .col--2 {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.col--2 img {
+    width: 60px;
+    margin-right: 10px;
+} */
+
+.humidity, .wind {
+    font-size: 36px;
+    margin-top: -12px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    /* flex-wrap: wrap; */
+    padding: 2rem 9%;
+}
+
+.footer--content p {
+    margin-top: 9%;
+    font-size: 1.6rem;
+    color: #fff;
+}
